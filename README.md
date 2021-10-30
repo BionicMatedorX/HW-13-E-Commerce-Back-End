@@ -1,26 +1,37 @@
-# HW-12-Employee-Tracker
+# HW-13-E-Commerce-Back-End
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Link to Public Repo on Github:
-https://github.com/BionicMatedorX/HW-12-Employee-Tracker
-# Disclaimer
-The generated HTML file will be found in the GeneratedMarkup folder in the repo.
+https://github.com/BionicMatedorX/HW-13-E-Commerce-Back-End
 ## Table of Contents
 1. [Description](#Description)
-2. [Video Walkthrough](#Installation)
+2. [Video Walkthrough](#Video-Walkthrough)
 3. [User Story](#User-Story)
 4. [Initialization](#Initialization)
 5. [License](#License)
 6. [Questions](#Questions)
 ## Description
-- This project is to showcase to a user how to work in a database that contains specific employee information within a company's records. Using inquirer we can help a user navigate a database. We can guide the user using quiestions to update the company's database.
+- This project is to showcase to a user how to access and work on a database that contains specific Category, Product, and Tag information of a store's inventory. Within this project, the user will have the abilities to create, read, update, and delete the information within the database as they so chose.
 ## Video Walkthrough
 - Here is a walkthrough of how the app works
   <a target="_blank" href="https://watch.screencastify.com/v/Qb2YToN6wR4uR6kPchnk">View the Footage Here</a>
 ## User Story
-    AS A business owner
-    I WANT to be able to view and manage the departments, roles, and employees in my company
-    SO THAT I can organize and plan my business
+    GIVEN a functioning Express.js API
+
+    WHEN I add the database name, MySQL information (username and password) to a .env file
+    THEN I am able to connect to a database using Sequelize
+
+    WHEN I enter schema and seed commands
+    THEN a development database is created and is seeded with test data
+
+    WHEN I enter the command to invoke the application
+    THEN my server is started and the Sequelize models are synced to the MySQL database
+
+    WHEN I open API GET routes in Insomnia Core for categories, products, or tags
+    THEN the data for each of these routes is displayed in a formatted JSON
+
+    WHEN I test API POST, PUT, and DELETE routes in Insomnia
+    THEN I am able to create, update, and delete data within the database
 
 ## Initialization
 - Download project files via Github
